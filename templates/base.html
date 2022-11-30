@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>{% block title %} {% endblock %}</title>
+    <title>{% block title %}Pompeii{% endblock %}</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
@@ -18,21 +18,39 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-            <li class="nav-item active">
+            <!-- <li class="nav-item active"> -->
                 <a class="nav-link" href="{{ url_for('aboutpompeii')}}">About Pompeii</a>
                 <a class="nav-link" href="{{ url_for('newdiscovery')}}">New Discovery: Themapolium of Regio V.</a>
                 <a class="nav-link" href="{{ url_for('humanenv')}}">Human Environmental Interactions</a>
                 <a class="nav-link" href="{{ url_for('archadvance')}}">Archaeological Advancements</a>
                 <a class="nav-link" href="{{ url_for('modernday')}}">Effects on Modern Day Society</a>
                 <a class="nav-link" href="{{ url_for('sources')}}">Sources</a>
-            </li>
             </ul>
         </div>
     </nav>
     <div class="container">
         {% block content %} {% endblock %}
     </div>
-
+    
+    
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer1">
+                <h2>About Me</h2>
+                <p>Dylan Lai</p>
+                <p>dylanl67@bu.edu</p>
+                <p>(917)599-2981</p>
+            </div>
+            <div class="footer-heading footer2">
+                <h2>More News</h2>
+                <p>Fox News</p>
+            </div>
+            <div class="footer-heading footer3">
+                <h2>More Links</h2>
+                <p>Github</p>
+            </div>
+        </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

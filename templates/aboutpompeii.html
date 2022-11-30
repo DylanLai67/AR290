@@ -3,15 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
-    <title>Pompeii</title>
+    <!-- <title>Pompeii</title> -->
 </head>
 <body>
     {% extends 'base.html' %}
     {% block content %}
-    <h1> About Pompeii</h1>
-    
-   
+    <h1>About Pompeii</h1>
+    <div class="float-container">
+        <div class="float-child">
+            <p>
+                Pompeii was an ancient city located in the western region of Italy in Campania, near the Bay of Naples. The city is surrounded by the Apennine Mountain range and the coast of the Mediterranean Sea. The city was occupied by Romans from 7th-6th century BC to 79 AD.
+            </p>
+            <p>
+                The city was designed as a vacation hotspot for wealthy Roman citizens. The city was known for its grand gardens, beautiful villas and luxurious courtyards. The city was well structured and sophisticated with magnificent temples, large spacious amphitheaters and majestic statues. The statues were constructed of marble and bronze. Floors with paved intricate mosaics and Greek mythology scattered everywhere. The city was a popular hub for wealthy Romans, court officials, and emperors to vacation and build houses. While the city was grand and filled with the wealthy, the city was filled with the poor as well. 
+            </p>
+            <p>
+                In AD 79, the famous eruption of Mount Vesuvius buried the surrounding area in 4 to 6 meters of volcanic ash and pumice. 
+            </p>
+        </div>
+          
+        <div class="float-child">
+            <div class="blue">Picture</div>
+        </div>
+    </div>
+
     {% endblock %}
-   
+
 </body>
 </html>
