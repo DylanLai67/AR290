@@ -1,7 +1,8 @@
 .float-container {
     border: 3px solid #fff;
     /* padding: 20px; */
-    margin-bottom: 50px;
+    margin-bottom: 200px;
+    overflow-y: scroll;
 }
 
 .float-child {
@@ -11,12 +12,7 @@
     /* border: 1px solid black; */
 }  
 
-/* .container {
-    margin-bottom: 10px;
-} */
-/* .spacing {
-    padding-bottom: 100px;    
-} */
+
 
 .footer-container {
     position: fixed;

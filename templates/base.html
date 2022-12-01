@@ -4,11 +4,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="images/pillar.png">
+    <link rel="shortcut icon" href="/images/favicon.ico">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>{% block title %}Pompeii{% endblock %}</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
@@ -47,10 +48,22 @@
             </div>
             <div class="footer-heading footer3">
                 <h2>More Links</h2>
-                <p>Github</p>
+                <a href="https://github.com/DylanLai67/AR290">Github</a>
             </div>
         </div>
     </div>
+
+    <style>
+        a:link, a:visited {
+          color: white;
+          text-decoration: none;
+          display: inline-block;
+        }
+        
+        a:hover, a:active {
+            text-decoration: underline;
+        }
+    </style>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
