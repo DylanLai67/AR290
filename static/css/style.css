@@ -1,18 +1,21 @@
 .float-container {
-    border: 3px solid #fff;
+    /* border: 3px solid #fff; */
     /* padding: 20px; */
-    margin-bottom: 200px;
-    overflow-y: scroll;
+    margin-bottom: 300px;
+    overflow-y: scroll overlay;
 }
 
 .float-child {
     width: 50%;
     float: left;
     padding: 50px;
+    
     /* border: 1px solid black; */
 }  
 
-
+.spacing {
+  margin-bottom: 300px;
+}
 
 .footer-container {
     position: fixed;
@@ -21,7 +24,6 @@
     width: 100%;
     height: 150px;
     background-color: rgb(75, 114, 162);
-    
     /* text-align: center; */
     padding-top: 10px;
     margin-top: 10px;
@@ -53,11 +55,12 @@
     color: white;
   }
 
+  .sources {
+    color: black;
+    font-size: 15px; 
+  }
 
-
-  .scroll{
-    height: 100px;
-    width: 200px;
-    Overflow-y: auto;
+  .sources-padding {
+    padding-bottom: 10px;
   }
   

@@ -18,13 +18,10 @@ def newdiscovery():
 def humanenv():
     return render_template('humanenv.html')
 
-@app.route('/archadvance')
-def archadvance():
-    return render_template('archadvance.html')
+@app.route('/archadvance-modernday')
+def archadvancemodernday():
+    return render_template('archadvance-modernday.html')
 
-@app.route('/modernday')
-def modernday():
-    return render_template('modernday.html')
 
 @app.route('/sources')
 def sources():

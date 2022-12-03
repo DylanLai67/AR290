@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>{% block title %}Pompeii{% endblock %}</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://www.shutterstock.com/image-vector/pillar-icons-symbol-vector-elements-260nw-2005008098.jpg" style="width:16px;height:16px">
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
@@ -23,8 +23,7 @@
                 <a class="nav-link" href="{{ url_for('aboutpompeii')}}">About Pompeii</a>
                 <a class="nav-link" href="{{ url_for('newdiscovery')}}">New Discovery: Themapolium of Regio V.</a>
                 <a class="nav-link" href="{{ url_for('humanenv')}}">Human Environmental Interactions</a>
-                <a class="nav-link" href="{{ url_for('archadvance')}}">Archaeological Advancements</a>
-                <a class="nav-link" href="{{ url_for('modernday')}}">Effects on Modern Day Society</a>
+                <a class="nav-link" href="{{ url_for('archadvancemodernday')}}">Archaeological Advancements</a>
                 <a class="nav-link" href="{{ url_for('sources')}}">Sources</a>
             </ul>
         </div>
@@ -40,15 +39,16 @@
                 <h2>About Me</h2>
                 <p>Dylan Lai</p>
                 <p>dylanl67@bu.edu</p>
-                <p>(917)599-2981</p>
+                <p>(917) 599-2981</p>
             </div>
             <div class="footer-heading footer2">
                 <h2>More News</h2>
-                <p>Fox News</p>
+                <a target="_blank" href="https://www.pompeionline.net/en/news">Pompeii Online</a>
+                <a target="_blank" href="https://www.usatoday.com/story/news/world/2022/08/07/pompeii-ancient-roman-city-excavation/10260720002/">USA Today</a>
             </div>
             <div class="footer-heading footer3">
                 <h2>More Links</h2>
-                <a href="https://github.com/DylanLai67/AR290">Github</a>
+                <a target="_blank" href="https://github.com/DylanLai67/AR290">Github</a>
             </div>
         </div>
     </div>
