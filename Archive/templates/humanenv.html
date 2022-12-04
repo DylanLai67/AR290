@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <title>Pompeii</title>
+</head>
+<body>
+    {% extends 'base.html' %}
+    {% block content %}
+    <h1>Human Environmental Interactions</h1>
+    <div class="float-container">
+        <div class="float-child spacing">
+            <p>
+                The excavation of the Thermapolium of Regio V is a beautiful piece of history that was frozen in time. The find explains more of the ruins of Pompeii and allows us to understand this ancient time period better. It advances our understanding of human environment interactions by teaching us what kinds of plants and animals the city dealt with. Based on the recovered artifacts we can see how advanced the civilization was and how technologically advanced they were. The Pompeiians showed agricultural techniques in order to supply food for the Thermapolium as well as using tools to prepare it. Additionally, certain findings like containers for wine filled with beans in order to modify the taste of the wine give us clues as to how the civilization most likely had an even stronger agricultural presence with their ability to domesticate and grow crops. This can also be supported with the distinction of whether or not the animal bones found within the establishment are domestic animals or wild. Domestic animals are bred by humans to serve a purpose and may be reflected within the animal’s DNA or morphology. By understanding the types of food served, we can see how the people of Pompeii interacted with the landscape. The agricultural scene was most likely prosperous considering that Pompeii has fertile soil and is wedged between two rivers. The environment is a perfect moderate climate with sunny skies and as a result made the Pompeiians financially prosperous.
+            </p>
+            <p>
+                Beyond the Thermapolium of Regio V,  the Pompeiians interacted with more of the environment. Within the city there were bath houses and ponds. The bath houses were designed for people to clean themselves and had water supplied from the River Sarno and local wells, but later they were supplied by the aqueduct which brought water from the nearby hills. Bath houses even had pipes running through the walls to heat and cool the bath house. With a large city like Pompeii, it was crucial to have a functioning water system thriving throughout the city. In one person’s villa there was a pond in the center of the garden where they bred fish. Additionally, within the city there were stables for their horses and wool textiles which give more insight on how the Pompeiians interacted with nature and domesticated animals.
+            </p>
+
+        </div>
+          
+        <div class="float-child spacing">
+            <img src="http://pompeiisites.org/wp-content/uploads/Termopolio-10-Regio-V-%E2%94%AC%C2%AEluigispina.jpg" style="width:100%;height:300px;margin-bottom:30px;">
+            <img src="http://pompeiisites.org/wp-content/uploads/Termopolio-Regio-V-8-Foto-Parco-archeologico-di-Pompei-2-578x1024.jpg" style="width:100%;height:300px;margin-bottom:30px;">
+            <img src="https://cdn.britannica.com/52/19752-004-F056403C/Pompeii-Italy-World-Heritage-site-1997.jpg" style="width:100%;height:300px;margin-bottom:30px;">
+        </div>
+    </div>
+
+    {% endblock %}
+    
+</body>
+</html>
